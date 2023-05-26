@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(97, 96, 96, 0.75);
+    margin: 5% auto;
+    height: 70vh;
+    max-width: 60vw;
+    overflow: hidden;
+}
+div{
+overflow: hidden;
+}
+img{
+    max-width: 40vw;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 20px;
+}
+button{
+    background: none;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
